@@ -2,6 +2,8 @@ h1.Heading {
     text-decoration: underline;
 }
 
-img {
-    border: radius 50%;
+div {
+    border: radius 50px;
+    padding: 50px; 
 }
+
