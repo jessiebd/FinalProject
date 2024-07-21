@@ -11,7 +11,7 @@ img.author {
 }
 
 a[href*="http"] {
-    color: antiquewhite;
+    color: aqua;
 }
 
 div.glass {
@@ -44,6 +44,8 @@ ul {
     background-color: #433434;
     color: antiquewhite
   }
+i.fa-
+
 footer {
  color:aqua   
 }
