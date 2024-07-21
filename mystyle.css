@@ -44,7 +44,14 @@ ul {
     background-color: #433434;
     color: antiquewhite
   }
-i.fa-
+i.fa-solid {
+    height: 50%;
+    width: 50%;
+}
+hr {
+    width:100px;
+    color: aqua;
+}
 
 footer {
  color:aqua   
