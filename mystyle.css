@@ -42,6 +42,7 @@ div.club {
     border-width: 20px;
     color: #3f2a2a;
 }
+ul.directory {
     list-style-type: none;
     margin: 0;
     padding: 0;
