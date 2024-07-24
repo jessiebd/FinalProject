@@ -16,14 +16,15 @@ article.background {
 img.headshot {
     border-radius:50%;
     mask-border-width: 50%;
-    position: sticky;
     top: 0;
-    position: absolute;
+    float: left;
+    top: 100px;
+    bottom: 200px;
   left: 0px;
   width: 300px;
   border: 3px solid aqua;
   padding: 10px;
-  margin-top: 100px;
+  
 
 }
 
