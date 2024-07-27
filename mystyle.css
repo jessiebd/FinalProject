@@ -1,18 +1,38 @@
+/*All Pages*/
+
+ul.directory {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #3f2a2a
+ }
 body {
     background-color: rgb(62, 62, 55);
     color: antiquewhite;
-}
-h1.Title {
-    text-decoration: underline;
-}
-
-img.author {
-    border-radius: 50%;
 }
 
 article.background {
     text-align: right;
 }
+
+footer {
+    color:aqua   
+   }
+
+   
+/*Authors Page*/
+
+img.author {
+    border-radius: 50%;
+}
+hr {
+    width:100px;
+    color: aqua;
+}
+
+
+/*Index*/
 img.headshot {
     border-radius:50%;
     mask-border-width: 50%;
@@ -24,7 +44,6 @@ img.headshot {
   width: 300px;
   border: 3px solid aqua;
   padding: 10px;
-  
 
 }
 
@@ -32,25 +51,31 @@ a[href*="http"] {
     color: aqua;
 }
 
+/*The Glass Castle Page*/
+
 div.glass {
     border-style: dashed;
     border-width: 20px;
     color: #3f2a2a;
-    
 }
+/*The Liars' Club Page*/
+
 div.club { 
     border-style: dashed;
     border-width: 20px;
     color: #3f2a2a;
+
 }
-ul.directory {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #3f2a2a
- }
-  
+/*both*/
+h1.Title {
+    text-decoration: underline;
+    text-align: center;
+}
+h2.author {
+    text-align: center;
+}
+
+/*UI*/
   li a {
     display: block;
     color: #000;
@@ -67,14 +92,5 @@ i.fa-solid {
     height: 50%;
     width: 50%;
 }
-hr {
-    width:100px;
-    color: aqua;
-}
 
-footer {
- color:aqua   
-}
-h1 {
-    text-align: center;
-}
+
