@@ -12,9 +12,7 @@ body {
     color: antiquewhite;
 }
 
-article.background {
-    text-align: right;
-}
+
 
 footer {
     color:aqua   
@@ -25,6 +23,7 @@ footer {
 
 img.author {
     border-radius: 50%;
+    
 }
 hr {
     width:100px;
