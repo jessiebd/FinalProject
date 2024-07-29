@@ -117,13 +117,23 @@ a[href*="http"] {
     border-width: 20px;
     color: #3f2a2a;
     gap: 10px;   
+    animation: slide-right 5s;
+}
+@keyframes slide-right {
+    from {
+    margin-left: 100%;}
+}
+to {
+    margin-left: 0%;
+
 }
 
 
 /*The Liars' Club Page*/
 
 img.club { 
-    display: block;
+    display: inline-block;
+    object-fit: fill;
     border-style: dashed;
     border-width: 20px;
     color: #3f2a2a;
