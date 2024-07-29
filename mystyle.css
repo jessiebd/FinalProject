@@ -23,12 +23,41 @@ footer {
 
 img.author {
     border-radius: 50%;
-    
+    object-position: relative;
+    width:100%;
+    overflow: hidden;
+    animation: slide-right 5s;
+}
+@keyframes slide-right {
+    from {
+    margin-left: 100%;}
+}
+to {
+    margin-left: 0%;
+
 }
 hr {
     width:100px;
     color: aqua;
 }
+section {
+    width:100%;
+    overflow: hidden;
+    animation: slide-right 10s
+}
+@keyframes slide-right {
+    from {
+    margin-left: 100%;}
+}
+to {
+    margin-left: 0%;
+
+}
+hr {
+    width:100px;
+    color: aqua;
+}
+
 
 
 /*Index*/
@@ -45,6 +74,7 @@ img.headshot {
   padding: 10px;
 
 }
+
 
 a[href*="http"] {
     color: aqua;
