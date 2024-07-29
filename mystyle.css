@@ -33,6 +33,7 @@ img.author {
     float: left;
     overflow: hidden;
     animation: slide-right 5s;
+    color: aqua;
 }
 @keyframes slide-right {
     from {
