@@ -29,6 +29,10 @@ blockquote {
 }
 /*Authors Page*/
 
+h1 {
+    text-decoration: underline;
+}
+
 .container {
     display: flex;
     align-items: flex-start;
@@ -76,7 +80,8 @@ hr {
 
 /*Index*/
 h1.index {
-    color: aqua
+    color: aqua;
+    text-decoration: underline;
 }
 img.headshot {
     border-radius:50%;
