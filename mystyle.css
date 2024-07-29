@@ -69,6 +69,9 @@ hr {
 
 
 /*Index*/
+h1 {
+    color: aqua
+}
 img.headshot {
     border-radius:50%;
     mask-border-width: 50%;
@@ -81,7 +84,7 @@ img.headshot {
   border: 3px solid aqua;
   padding: 10px;
   overflow: hidden;
-  animation: slide-right 10s
+  animation: slide-right 8s;
 }
 @keyframes slide-right {
   from {
@@ -124,7 +127,17 @@ img.club {
     border-style: dashed;
     border-width: 20px;
     color: #3f2a2a;
+    animation: slide-right 5s;
 }
+@keyframes slide-right {
+    from {
+    margin-left: 100%;}
+}
+to {
+    margin-left: 0%;
+
+}
+
 /*both*/
 h1.Title {
     text-decoration: underline;
