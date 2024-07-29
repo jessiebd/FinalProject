@@ -21,6 +21,12 @@ footer {
 	width: 100%;
     float: right;
 }
+q { 
+    color: aqua
+}
+blockquote {
+    color: aqua
+}
 /*Authors Page*/
 
 .container {
@@ -69,7 +75,7 @@ hr {
 
 
 /*Index*/
-h1 {
+h1.index {
     color: aqua
 }
 img.headshot {
@@ -112,7 +118,7 @@ a[href*="http"] {
     height: 100%;
     object-fit: cover; 
     object-position: center; 
-    display: block;
+    display: inline-block;
     border-style: dashed;
     border-width: 20px;
     color: #3f2a2a;
